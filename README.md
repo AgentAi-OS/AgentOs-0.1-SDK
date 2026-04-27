@@ -65,7 +65,7 @@ console.log(token);
 
 ```ts
 const client = new AgentOSClient({
-  baseUrl: 'https://agent-os-0.1-lime.vercel.app',
+  baseUrl: 'https://agentos01.xyz',
   apiKey: process.env.AGENT_OS_API_KEY,
   timeoutMs: 15000
 });
