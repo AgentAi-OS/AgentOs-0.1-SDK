@@ -1,0 +1,29 @@
+{
+  "name": "agent-os-0.1-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for the AGENT OS Terminal and Token Creator utilities.",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src tests --ext .ts",
+    "prepublishOnly": "npm run typecheck && npm run test && npm run build"
+  },
+  "keywords": ["agent-os-0.1", "sdk", "typescript", "terminal", "token-creator", "solana"],
+  "author": "AGENT Systems Corporation",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
