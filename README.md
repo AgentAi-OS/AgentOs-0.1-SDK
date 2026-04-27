@@ -7,7 +7,7 @@ This SDK intentionally ignores the other AGENT OS utilities and exposes only:
 - Terminal
 - Token Creator (SOL)
 
-Source web project: `https://agent-os-0.1-lime.vercel.app`
+Source web project: `https://agentos01.xyz`
 
 ## Features
 
