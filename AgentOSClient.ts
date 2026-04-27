@@ -12,7 +12,7 @@ import type {
   TokenCreatorOutput
 } from '../types';
 
-const DEFAULT_BASE_URL = 'https://agent-os-0.1-lime.vercel.app';
+const DEFAULT_BASE_URL = 'https://agentos01.xyz';
 const DEFAULT_TIMEOUT_MS = 15_000;
 
 export class AgentOSClient {
