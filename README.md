@@ -41,7 +41,7 @@ npm test
 import { AgentOSClient } from 'agent-os-0.1-sdk';
 
 const agentOS = new AgentOSClient({
-  baseUrl: 'https://agent-os-0.1-lime.vercel.app'
+  baseUrl: 'https://agentos01.xyz'
 });
 
 await agentOS.openApp('terminal');
